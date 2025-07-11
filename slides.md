@@ -224,6 +224,7 @@ transition: slide-left
 ---
 
 # Exercise: Use conditional for a prop
+Continuing with your first iteration of this component from an earlier slide...
 
 - Modify your `<Button />` component such that if it is given the `disabled` prop, it will actually make the button disabled
    - reminder: can disable an HTML button tag via `<button disabled>Submit</button>`
@@ -234,6 +235,7 @@ transition: slide-left
 ---
 
 # Exercise: Use conditional for text
+Continuing with your first iteration of this component from an earlier slide...
 
 <img src="/assets/inbox.png" style="width: 400px" />
 
@@ -245,8 +247,16 @@ transition: slide-left
 transition: slide-left
 ---
 
+# Exercise: Create simple React website
+
+- Reverse engineer this entire [Email template layout](https://pure-css.github.io/layouts/email/) to JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
+- We will use this later to keep learning about React
+
+---
+transition: slide-left
+---
+
 # Homework
 
-- Exercise: Create simple React website
-   - Reverse engineer: convert this entire [Email template layout](https://pure-css.github.io/layouts/email/) to JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
+- Finish converting to JSX [Email template layout](https://pure-css.github.io/layouts/email/) to JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
 - Begin thinking about your "Weather Forecasting App" assignment due Aug 17 midnight EST
