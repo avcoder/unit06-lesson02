@@ -206,16 +206,11 @@ transition: slide-left
 ---
 
 # Exercise: Create simple React website
-remainder of time.  Choose one appropriate to your comfort level so far with React
+remainder of time.
 
-Level 1
-- Convert this [menu design](https://miro.medium.com/v2/resize:fit:600/1*Xnksl3Gt8jsztClkLKMpZQ.png) into React/JSX OR convert your HTML/CSS Assignment 1 into React/JSX
-
-Level 2
 - Convert this entire [Email template layout](https://pure-css.github.io/layouts/email/) to React/JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
 
-Level 3
-- Convert this entire [Dashboard](https://assets.justinmind.com/wp-content/uploads/2020/02/dashboard-design-example-hcare.png) to React/JSX
+
 
 ---
 transition: slide-left
@@ -223,5 +218,7 @@ transition: slide-left
 
 # Homework
 
-- Finish converting to JSX [Email template layout](https://pure-css.github.io/layouts/email/) to JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
+- Finish converting to JSX 
+- Practice: Convert this [menu design](https://miro.medium.com/v2/resize:fit:600/1*Xnksl3Gt8jsztClkLKMpZQ.png) into React/JSX OR convert your HTML/CSS Assignment 1 into React/JSX
+- Practice: Convert this entire [Dashboard](https://assets.justinmind.com/wp-content/uploads/2020/02/dashboard-design-example-hcare.png) to React/JSX
 - Begin thinking about your "Weather Forecasting App" assignment due Aug 17 midnight EST
