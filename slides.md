@@ -215,7 +215,7 @@ Level 2
 - Convert this entire [Email template layout](https://pure-css.github.io/layouts/email/) to React/JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
 
 Level 3
-- Conver this entire [Dashboard](https://assets.justinmind.com/wp-content/uploads/2020/02/dashboard-design-example-hcare.png) to React/JSX
+- Convert this entire [Dashboard](https://assets.justinmind.com/wp-content/uploads/2020/02/dashboard-design-example-hcare.png) to React/JSX
 
 ---
 transition: slide-left
