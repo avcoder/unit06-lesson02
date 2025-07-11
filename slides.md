@@ -244,7 +244,7 @@ transition: slide-left
 remainder of time.  Choose one appropriate to your comfort level so far with React
 
 Level 1
-- Convert this [menu design](https://miro.medium.com/v2/resize:fit:600/1*Xnksl3Gt8jsztClkLKMpZQ.png) into React/JSX
+- Convert this [menu design](https://miro.medium.com/v2/resize:fit:600/1*Xnksl3Gt8jsztClkLKMpZQ.png) into React/JSX OR convert your HTML/CSS Assignment 1 into React/JSX
 
 Level 2
 - Convert this entire [Email template layout](https://pure-css.github.io/layouts/email/) to React/JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
