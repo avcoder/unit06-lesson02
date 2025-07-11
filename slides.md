@@ -42,22 +42,6 @@ transition: slide-left
 - repo of where we left off: https://github.com/avcoder/test-react
 - [last time](https://unit06-lesson01.netlify.app/1) we just finished replacing the App.tsx `<button>` with our `<Button>` component
 
----
-transition: slide-left
----
-
-# Exercise: Use React DevTools to find component
-10 mins
-
-- Install React DevTools for your browser and explore it (should be similar to Vue DevTools)
-- Goto: instagram.com
-   - Try to find the React component for the Login button
-   - why do the React components look weird/minified? (prod vs development)
-   - Try to change a value of a prop in any component to see what might happen
-- View your local App.tsx again in the browser
-  - Just like you right-click inspect DOM element to find that particular HTML element in the DOM, you can do similar with React components
-  - try changing prop values (like `label`)
-  - Tip: in Chrome devtools, can use `Cmd + p` to find React filename
 
 ---
 transition: slide-left
