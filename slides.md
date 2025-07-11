@@ -40,7 +40,7 @@ transition: slide-left
 
 - reminder: Algorithm and Data Structure Assignment due Jul. 20 
 - repo of where we left off: https://github.com/avcoder/test-react
-- last time we just finished replacing the App.tsx `<button>` with our `<Button>` component
+- [last time](https://unit06-lesson01.netlify.app/1) we just finished replacing the App.tsx `<button>` with our `<Button>` component
 
 ---
 transition: slide-left
