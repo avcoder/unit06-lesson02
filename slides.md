@@ -20,7 +20,7 @@ mdc: true
 Frontend Development: Unit 06 - Lesson 02
 
 - [ ] JSX
-- [ ] Covering 'gotchas'
+- [ ] Iteration
 - [ ] Conditionals
 
 <div class="abs-br m-6 text-xl">
@@ -41,26 +41,6 @@ transition: slide-left
 - reminder: Algorithm and Data Structure Assignment due Jul. 20 
 - repo of where we left off: https://github.com/avcoder/test-react
 - [last time](https://unit06-lesson01.netlify.app/1) we just finished replacing the App.tsx `<button>` with our `<Button>` component
-
----
-transition: slide-left
----
-
-# Common Gotchas
-Try the following common errors to see what errors look like in React.  Find solutions for each.
-
-- Forgetting to `return` JSX
-- Confusing camelCase for HTML attributes `onclick vs onClick`
-- Using `class` instead of `className`
-- if using inline styles, using hyphenated names instead of camelCase 
-  - ex: `background-color vs backgroundColor`
-- Multiple top-level elements without a wrapper/fragment
-- DON'T use if statements directly inside JSX like `return ( if (isLoggedIn) { <p>Welcome</p> });`
-- Not using `key` in lists
-- JSX requires properly closed tags, even for void elements. ex: `<input /> <br />`
-- what happens if props are undefined? ex: `return (<div className={someUndefinedClass}>Hi</div>)`
-- if `numOfItems` is 0, this will render 0 `{numOfItems && <ShoppingList items={shoppingList} />}`
-- examine if there are any more red squiggly lines in VSCode? 
 
 ---
 transition: slide-left
