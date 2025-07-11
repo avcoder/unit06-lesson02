@@ -17,7 +17,7 @@ mdc: true
 ---
 
 # React: JSX
-Frontend Development: Unit 06 - Lesson 01
+Frontend Development: Unit 06 - Lesson 02
 
 - [ ] JSX
 - [ ] Covering 'gotchas'
@@ -111,7 +111,7 @@ transition: slide-left
 ---
 
 # Exercise: Create simple React component
-20 mins
+25 mins
 
 - Create a component called `<FollowPerson>`
 - reminder: all React components have to start with a Capital Letter
@@ -127,7 +127,7 @@ transition: slide-left
 ---
 
 # Iteration
-to make lists, simply use the vanilla JS array method .map
+to make lists, simply use the vanilla JS array method .map.  
 
 ```jsx
 const PeopleList = () => {
@@ -137,9 +137,10 @@ const PeopleList = () => {
       { 
         people.map(person => (
           <FollowPerson
-            key={person.id}
-            name={person.name}
-            username={person.username}
+            key={ person.id } // notice we use key
+            name={ person.name }
+            username={ person.username }
+            followHandler={() => console.log('clicked follow button')}
           />
         ))
       }
@@ -156,8 +157,9 @@ transition: slide-left
 10 mins
 
 - create a list via `.map()` to make at least 3 `<FollowPerson>` components
+- Make up your own array of people data
 
-<img src="/assets/list1.png" >
+<img src="/assets/list1.png" style="height: 300px">
 
 
 ---
