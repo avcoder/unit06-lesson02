@@ -251,7 +251,7 @@ transition: slide-left
 ---
 
 # Exercise: Create simple React website
-remainder of time
+remainder of time.  Choose one appropriate to your comfort level so far with React
 
 Level 1
 - Convert your first HTML/CSS assignment back from Unit 1 into React/JSX
