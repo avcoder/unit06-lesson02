@@ -208,7 +208,9 @@ transition: slide-left
 # Exercise: Create simple React website
 remainder of time.
 
-- Convert this entire [Email template layout](https://pure-css.github.io/layouts/email/) to React/JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
+- Create a new Vite/React project
+- Recreate using React/JSX this entire [Email template layout](https://pure-css.github.io/layouts/email/)
+- [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
 
 
 
