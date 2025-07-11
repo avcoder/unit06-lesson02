@@ -214,9 +214,7 @@ transition: slide-left
   ```jsx
   return (
     <>
-      {
-        isLoggedIn ? <AdminDashboard /> : <p>Please login first</p>
-      }
+      { isLoggedIn ? <AdminDashboard /> : <p>Please login first</p> }
     </>
   )
   ```
@@ -225,7 +223,17 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Exercise: Use conditional
+# Exercise: Use conditional for a prop
+
+- Modify your `<Button />` component such that if it is given the `disabled` prop, it will actually make the button disabled
+   - reminder: can disable an HTML button tag via `<button disabled>Submit</button>`
+`<Button label="Submit" disabled />`
+
+---
+transition: slide-left
+---
+
+# Exercise: Use conditional for text
 
 <img src="/assets/inbox.png" style="width: 400px" />
 
