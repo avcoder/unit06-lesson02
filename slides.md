@@ -167,16 +167,6 @@ transition: slide-left
 
 
 ---
-transition: slide-left
----
-
-# Optional: Configure imports to use absolute path
-
-- Use ChatGPT to help you configure your tsconfig.json, tsconfig.app.json, vite.config.ts
-- ❌ BEFORE: Using relative paths can be a pain point, especially when refactoring locations of files/folders
-- ✅ AFTER: should now be able to use `import Component from '@/components/whatever' 
-
----
 layout: image-right
 transition: slide-left
 image: /assets/swyx.png
@@ -254,7 +244,7 @@ transition: slide-left
 remainder of time.  Choose one appropriate to your comfort level so far with React
 
 Level 1
-- Convert your first HTML/CSS assignment back from Unit 1 into React/JSX
+- Convert this [menu design](https://miro.medium.com/v2/resize:fit:600/1*Xnksl3Gt8jsztClkLKMpZQ.png) into React/JSX
 
 Level 2
 - Convert this entire [Email template layout](https://pure-css.github.io/layouts/email/) to React/JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
