@@ -220,6 +220,19 @@ transition: slide-left
     </>
   )
   ```
+
+---
+transition: slide-left
+---
+
+# Exercise: Use conditional
+
+<img src="/assets/inbox.png" style="width: 400px" />
+
+- make it so that if variable `isFollowing` is true, then the button text will say `- Following`
+   - otherwise if `isFollowing`is false, then button text will say `+ Follow`
+
+
 ---
 transition: slide-left
 ---
