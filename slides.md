@@ -173,8 +173,8 @@ transition: slide-left
 # Optional: Configure imports to use absolute path
 
 - Use ChatGPT to help you configure your tsconfig.json, tsconfig.app.json, vite.config.ts
-- ❌ Using relative paths can be a pain point, especially when refactoring locations of files/folders
-- ✅ should now be able to use `import Component from '@/components/whatever' 
+- ❌ BEFORE: Using relative paths can be a pain point, especially when refactoring locations of files/folders
+- ✅ AFTER: should now be able to use `import Component from '@/components/whatever' 
 
 ---
 layout: image-right
