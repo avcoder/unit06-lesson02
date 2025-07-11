@@ -253,8 +253,15 @@ transition: slide-left
 # Exercise: Create simple React website
 remainder of time
 
-- Reverse engineer this entire [Email template layout](https://pure-css.github.io/layouts/email/) to JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
+Level 1
+- Convert your first HTML/CSS assignment back from Unit 1 into React/JSX
+
+Level 2
+- Convert this entire [Email template layout](https://pure-css.github.io/layouts/email/) to React/JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
 - We will use this later to keep learning about React
+
+Level 3
+- Conver this entire [Dashboard](https://assets.justinmind.com/wp-content/uploads/2020/02/dashboard-design-example-hcare.png) to React/JSX
 
 ---
 transition: slide-left
