@@ -206,10 +206,20 @@ transition: slide-left
 - in JSX, with the curly braces, we can't use JS statements, only expressions
   - why do you think we can't use JS statements?  (think what is being passed to `React.createElement()`? )
 - use of `&&` 
-  - ex: `{isOnline && <div className="green" />}`
-  - ex: `{numOfItems > 0 && <ShoppingList items={shoppingList} /> }`
+  - ex: `{ isOnline && <div className="green" /> }`
   - why does the above work?  what's happening?
-
+  - ex: `{ numOfItems > 0 && <ShoppingList items={shoppingList} /> }`
+  - ex: `{ !!numOfItems && <ShoppingList items={shoppingList} /> }`
+- use of ternary operators
+  ```jsx
+  return (
+    <>
+      {
+        isLoggedIn ? <AdminDashboard /> : <p>Please login first</p>
+      }
+    </>
+  )
+  ```
 ---
 transition: slide-left
 ---
