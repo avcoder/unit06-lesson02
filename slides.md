@@ -200,6 +200,14 @@ class: text-left
 transition: slide-left
 ---
 
+# Conditionals
+
+- 
+
+---
+transition: slide-left
+---
+
 # Homework
 
 - Exercise: Create simple React website
