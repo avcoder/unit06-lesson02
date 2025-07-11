@@ -46,8 +46,8 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Common Errors
-Try the following common errors to see what errors look like in React:
+# Common Gotchas
+Try the following common errors to see what errors look like in React.  Find solutions for each.
 
 - Forgetting to `return` JSX
 - Confusing camelCase for HTML attributes `onclick vs onClick`
@@ -58,6 +58,7 @@ Try the following common errors to see what errors look like in React:
 - DON'T use if statements directly inside JSX like `return ( if (isLoggedIn) { <p>Welcome</p> });`
 - Not using `key` in lists
 - JSX requires properly closed tags, even for void elements. ex: `<input /> <br />`
+- what happens if props are undefined? ex: `return (<div className={someUndefinedClass}>Hi</div>)`
 - examine if there are any more red squiggly lines in VSCode? TS error? 
   - can `// @ts-ignore` it for now; we'll learn more about TS later
 
@@ -202,7 +203,9 @@ transition: slide-left
 
 # Conditionals
 
-- 
+- in JSX, with the curly braces, we can't use JS statements, only expressions
+- why do you think we can't use JS statements?  (think what is being passed to `React.createElement()`? )
+
 
 ---
 transition: slide-left
