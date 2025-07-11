@@ -187,11 +187,11 @@ class: text-left
 # 10 minute break
 
 🍦 Cool Tips, Trends and Resources:
-- 📖 [Do you build FE or BE first?](https://www.codemzy.com/blog/build-front-end-or-back-end-first)
-- 🧢 [React Crash Course](https://www.youtube.com/watch?v=LDB4uaJ87e0)
-- 🗾 [Beginner's Guide to React](https://egghead.io/courses/the-beginner-s-guide-to-react)
-- ⛰️ [Epic React](https://www.epicreact.dev/tutorials/get-started-with-react)
-- 🎬 [Scrimba - Learn React](https://scrimba.com/learn-react-c0e)r
+
+- 🎮 [React video game](https://www.youtube.com/watch?v=m8SmXOTM8Ec#t=0m28s)
+- 🥊 [React vs Vue vs Angular](https://www.youtube.com/watch?v=_licnRxAVk0)
+- ⚛️ [React Conf 2024 Recap](https://www.youtube.com/watch?v=udXZw-9LdOM)
+- ▶️ [React vs Vue: ASync state, effects, hooks](https://www.youtube.com/watch?v=WhE2y3J45CM)
 
 <br>
 <hr>
