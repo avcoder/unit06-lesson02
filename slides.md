@@ -55,11 +55,11 @@ Try the following common errors to see what errors look like in React:
 - if using inline styles, using hyphenated names instead of camelCase 
   - ex: `background-color vs backgroundColor`
 - Multiple top-level elements without a wrapper/fragment
-- Using if statements directly inside JSX like `return ( if (show) { <p>Visible</p> });`
+- DON'T use if statements directly inside JSX like `return ( if (isLoggedIn) { <p>Welcome</p> });`
 - Not using `key` in lists
 - JSX requires properly closed tags, even for void elements. ex: `<input /> <br />`
 - examine if there are any more red squiggly lines in VSCode? TS error? 
-  - can `// @ts-ignore` it for now
+  - can `// @ts-ignore` it for now; we'll learn more about TS later
 
 ---
 transition: slide-left
