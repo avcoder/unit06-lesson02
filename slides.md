@@ -59,8 +59,8 @@ Try the following common errors to see what errors look like in React.  Find sol
 - Not using `key` in lists
 - JSX requires properly closed tags, even for void elements. ex: `<input /> <br />`
 - what happens if props are undefined? ex: `return (<div className={someUndefinedClass}>Hi</div>)`
-- examine if there are any more red squiggly lines in VSCode? TS error? 
-  - can `// @ts-ignore` it for now; we'll learn more about TS later
+- if `numOfItems` is 0, this will render 0 `{numOfItems && <ShoppingList items={shoppingList} />}`
+- examine if there are any more red squiggly lines in VSCode? 
 
 ---
 transition: slide-left
@@ -204,8 +204,11 @@ transition: slide-left
 # Conditionals
 
 - in JSX, with the curly braces, we can't use JS statements, only expressions
-- why do you think we can't use JS statements?  (think what is being passed to `React.createElement()`? )
-
+  - why do you think we can't use JS statements?  (think what is being passed to `React.createElement()`? )
+- use of `&&` 
+  - ex: `{isOnline && <div className="green" />}`
+  - ex: `{numOfItems > 0 && <ShoppingList items={shoppingList} /> }`
+  - why does the above work?  what's happening?
 
 ---
 transition: slide-left
