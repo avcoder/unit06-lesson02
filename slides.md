@@ -67,6 +67,8 @@ transition: slide-left
 ---
 
 # Exercise: Use React DevTools to find component
+10 mins
+
 - Install React DevTools for your browser and explore it (should be similar to Vue DevTools)
 - Goto: instagram.com
    - Try to find the React component for the Login button
@@ -99,9 +101,10 @@ transition: slide-left
 ---
 
 # Exercise: Draw components (pg.2)
-Use your Zoom pencil to draw all the potential components on the following images
+10 mins
 
 - In breakout groups, take 10 minutes to draw potential components in the following designs
+- Use your Zoom pencil to draw all the potential components on the following images
 
 1. [Payment page](https://ebizcharge.com/wp-content/uploads/2022/06/Tarlet-Payment-Page.png)
 1. [LinkedIn Learning Courses page](https://spotlight.lehigh.edu/sites/spotlight.lehigh.edu/files/Screen%20Shot%202020-08-14%20at%2010.32.20%20AM_0.png)
@@ -224,7 +227,7 @@ transition: slide-left
 ---
 
 # Exercise: Use conditional for a prop
-Continuing with your first iteration of this component from an earlier slide...
+5 mins. Continuing with your first iteration of this component from an earlier slide...
 
 - Modify your `<Button />` component such that if it is given the `disabled` prop, it will actually make the button disabled
    - reminder: can disable an HTML button tag via `<button disabled>Submit</button>`
@@ -235,7 +238,7 @@ transition: slide-left
 ---
 
 # Exercise: Use conditional for text
-Continuing with your first iteration of this component from an earlier slide...
+5 mins. Continuing with your first iteration of this component from an earlier slide...
 
 <img src="/assets/inbox.png" style="width: 400px" />
 
@@ -248,6 +251,7 @@ transition: slide-left
 ---
 
 # Exercise: Create simple React website
+remainder of time
 
 - Reverse engineer this entire [Email template layout](https://pure-css.github.io/layouts/email/) to JSX; [Github code here](https://github.com/pure-css/pure/tree/main/site/static/layouts/email)
 - We will use this later to keep learning about React
