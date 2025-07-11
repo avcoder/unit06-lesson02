@@ -126,6 +126,7 @@ transition: slide-left
 
 - create a list via `.map()` to make at least 3 `<FollowPerson>` components
 - Make up your own array of people data
+- Can copy/paste JSON data from https://randomuser.me/
 
 <img src="/assets/list1.png" style="height: 300px">
 
