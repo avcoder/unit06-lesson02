@@ -179,8 +179,8 @@ transition: slide-left
 ---
 layout: image-right
 transition: slide-left
-image: /assets/dodds.png
-backgroundSize: 400px 400px
+image: /assets/swyx.png
+backgroundSize: 400px 450px
 class: text-left
 ---
 
